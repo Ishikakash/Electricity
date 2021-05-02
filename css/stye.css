@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  /* Main Styling */
+  html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+  }
+  .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+  header h1{
+        padding: 20px;
+        background:black;
+        color: #fff;
+        overflow: auto;
+        text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .l-heading {
+    font-size: 20px;
+  }
+  
+  /* Padding */
+  .py-1 { padding: 10px 0; }
+  .py-2 { padding: 20px 0; }
+  .py-3 { padding: 30px 0; }
+
+  #navbar {
+    background: rgb(49, 49, 49);
+    color: #fff;
+    overflow: auto;
+  }
+
+  #navbar ul {
+    list-style: none;
+    float: left;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  #navbar ul li a:hover, 
+  #navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+  }
+
+  #section{
+      background: url('../images/2.jpg') no-repeat center center/cover;
+      height: 540px;
+  }
+#section div{
+    float: left;  
+}
+
+#section .box1 form{
+    border:1px white solid ;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.box1{
+   
+    width: 25%;
+    line-height: 1.6em;
+    height: 100px;
+    color: white;
+    
+}
+.box2{
+   
+    width: 50%;
+  
+    text-align:left;
+    line-height: 1.6em;
+    color: white;
+}
+.box3{
+   
+    width: 25%;
+    line-height: 1.6em;
+    color: white;
+}
+.box1 form{
+    padding: 10px;
+}
+
+.box1 form h3{
+    text-align: center;
+}
+ .box1 .faq{
+    border:1px white solid ;
+    margin: 10px;
+    padding: 5px;
+
+ }
+.box1 .faq ul{
+    padding: 20px;
+    list-style: bullets;
+}
+.box1 .faq ul li a{
+  color: white
+}
+
+.box1 .faq h3{
+    text-align: center;
+}
+/* faq*/
+#faqdetail .detail1 {
+
+  border: 1px solid black;
+  min-height: 100%;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin: 20px;
+}
+
+
+.box2 .content{
+    border:1px white solid ;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+}
+
+.box2 .content h3, 
+.box2 .content h5{
+    text-align: center;
+
+}
+
+#section .box2 .content p h5{
+    text-align: left;
+}
+#section .box3 .links {
+    border:1px white solid ;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    
+}
+#section .box3 .links  ul {
+    padding: 25px;
+    list-style: bullets ;
+}
+#section .box3 .links  ul li,
+#section .box3 .links  ul li a{
+    text-align: left;
+    color: white;
+}
+#section .box3 .links h3{
+    text-align: center;
+    color: white;
+}
+
+#section .box3 .states {
+    border:1px white solid ;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    
+}
+#section .box3 .states  ul {
+    padding: 25px;
+    list-style: bullets ;
+}
+#section .box3 .states  ul li {
+    text-align: left;
+    
+}
+#section .box3 .states h3{
+    text-align: center;
+    
+}
+/*footer*/
+footer h4{
+    
+    padding: 24px;
+    background:black;
+    color: #fff;
+    overflow: auto;
+    text-align: center;
+}
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input, 
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+  }
+  
+  #contact-form textarea {
+    height: 200px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+  }
+
+   /* About Info */
+   #about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  #about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  #about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
